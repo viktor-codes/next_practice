@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from 'next'
+
  
 export const metadata: Metadata = {
-  title: 'My Personal Blog - Thoughts on Technology, Travel, and Life',
-  description: 'Join me on my personal blog where I share my thoughts on the latest in technology, my travel adventures, and musings on life. Updated weekly!',
+  title: "Title",
+  description: "Description",
 }
 
 export default function Home() {
